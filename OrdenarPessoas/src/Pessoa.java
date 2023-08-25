@@ -30,3 +30,4 @@ public class Pessoa implements Comparable<Pessoa> {
         return this.nome.compareTo(outraPessoa.nome);
     }
 }
+//introduzido get e compareTo
