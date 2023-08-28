@@ -1,4 +1,4 @@
-public class Golfinho extends Aquatico {
+public class Golfinho extends Mamifero {
 
     @Override
     public void alimentar() {
@@ -11,8 +11,8 @@ public class Golfinho extends Aquatico {
     }
 
     @Override
-    public void nadar() {
-        System.out.println("Golfinho nadando com agilidade.");
+    public void amamentar() {
+        System.out.println("Golfinho amamenta seus filhotes.");
     }
 
     public void pular() {

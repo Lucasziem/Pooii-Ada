@@ -15,10 +15,3 @@ public class Ornitorrinco extends Aquatico {
         System.out.println("Ornitorrinco nadando em rios e riachos.");
     }
 }
-public class Ornitorrinco extends Mamifero {
-    @Override
-    public void amamentar() {
-        System.out.println("Ornitorrinco amamenta seu filhote.");
-    }
-}
-
