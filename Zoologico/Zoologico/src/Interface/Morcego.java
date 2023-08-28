@@ -1,8 +1,10 @@
-public class Morcego extends Mamifero {
+package Interface;
+
+public class Morcego implements Amamentador, Voador {
 
     @Override
     public void alimentar() {
-        System.out.println("Morcego se alimentando de insetos.");
+        System.out.println("Morcego está se alimentando de insetos.");
     }
 
     @Override
@@ -13,6 +15,12 @@ public class Morcego extends Mamifero {
     @Override
     public void amamentar() {
         System.out.println("Morcego amamentando seu filhote.");
+    }
+
+    @Override
+    public void voar() {
+        System.out.println("Morcego voando pela caverna.");
+    }
 
     public void sonar() {
         System.out.println("Morcego usa seu sonar para se localizar.");

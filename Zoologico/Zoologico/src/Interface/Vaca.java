@@ -1,4 +1,6 @@
-public class Vaca extends Mamifero {
+package Interface;
+
+public class Vaca implements Amamentador {
 
     @Override
     public void alimentar() {
