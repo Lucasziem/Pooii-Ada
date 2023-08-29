@@ -1,12 +1,16 @@
 public class Generics {
 
-    public static void Generics (String args) {
+    public static void main(String[] args) {
         String a = "a";
         String b = "b";
         System.out.println("Maior entre a e b: " + maior(a, b));
     }
 
     private static String maior(String primeira, String segunda) {
-        return "";
+        if (primeira.compareTo(segunda) > 0) {
+            return primeira;
+        } else {
+            return segunda;
+        }
     }
 }
